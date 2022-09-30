@@ -1,7 +1,7 @@
-class calculadora:
-    def __init__(self, primernumero, segundonumero):
-        self.num1 = int(num1)
-        self.num2 = int(num2)
+class Calculadora:
+    def __init__(self, primerNumero, segundoNumero):
+        self.num1 = int(primerNumero)
+        self.num2 = int(segundoNumero)
 
     def sumar(self):
         suma = self.num1 + self.num2
@@ -18,13 +18,3 @@ class calculadora:
     def dividir(self):
         divicion = self.num1 / self.num2
         print("el resultado de la divición es: ", divicion)
-
-
-num1 = input("ingrese un numero: ")
-num2 = input("ingrese un numero: ")
-
-calculadora = calculadora(num1, num2)
-calculadora.sumar()
-calculadora.multiplicar()
-calculadora.restar()
-calculadora.dividir()
